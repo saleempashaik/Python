@@ -1,6 +1,6 @@
 print(10)
 
-print(int(10.6))  #int converts decimal point to lower end.
+print(int(10.9))  #int converts decimal point to lower end.
 
 #int - arbitrary precision integer
 #float - 64bit floating point number 15-16 digits.
@@ -11,7 +11,7 @@ a = 3e7
 print(a)
 
 b = 'none'
-print(b  == 'none')
+print(b == 'none')
 
 c = bool(4)
 d = bool(0)
@@ -22,3 +22,6 @@ print(c)
 print(d)
 print(dd)
 print(e)
+
+print(bool('False'))  # since passing non empty string to bool. Its true
+print(bool('True'))
