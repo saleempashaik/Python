@@ -6,7 +6,7 @@ print(i)
 
 print(math.sqrt(9))
 
-print(3//2)
+print(3 // 2)
 
 print('text data goes here')
 
@@ -33,3 +33,11 @@ print(x.capitalize())
 print(x)
 print(len(x))
 print(x.upper())
+
+print('\xe5')
+
+# Byte: Data type for sequences of bytes
+# Raw binary data
+# Fixed- width single byte encodings.
+d = b'some bytes'
+print(d)
